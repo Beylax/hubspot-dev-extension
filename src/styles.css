@@ -1,0 +1,26 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	width: 300px;
+	background-color: #4a5b67;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+button {
+	flex: 1;
+	padding: 6px 12px;
+	font-size: 12px;
+	cursor: pointer;
+	color: white;
+	background-color: #fa7820;
+	font-weight: 700;
+	border: none;
+	border-radius: 15px;
+}

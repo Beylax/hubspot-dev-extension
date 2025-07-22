@@ -1,0 +1,17 @@
+{
+	"name": "HubSpot Dev",
+	"description": "An extension with utilities for HubSpot developers.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": [
+		"scripting",
+		"tabs"
+	],
+	"host_permissions": [
+		"<all_urls>"
+	],
+	"action": {
+		"default_popup": "src/index.html",
+		"default_icon": "src/hubspot.png"
+	}
+}
